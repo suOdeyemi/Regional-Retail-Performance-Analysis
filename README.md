@@ -1,14 +1,23 @@
-## 📂 Repository Overview 
+# 📊 Retail Sales Analysis & Excel Dashboard
 
-This repository contains all files related to the Excel-based retail sales analysis project: - `raw_data/`: Original dataset used for analysis - `cleaned_data/`: Preprocessed version of the dataset - `analysis_visualizations/`: Pivot tables, charts, and summary tables - `sales_dashboard.xlsx`: Interactive dashboard with filters and KPIs - `README.md`: Full project documentation
+## 📂 Repository Overview
+This repository contains all files related to the Excel‑based retail sales analysis project:
+
+raw_data/ – Original dataset used for analysis
+
+cleaned_data/ – Preprocessed version of the dataset
+
+analysis_visualizations/ – Pivot tables, charts, and the interactive dashboard
+
+README.md – Full project documentation
 
 
-# 📌 Overview:
+## 📌 Overview:
 This project analyzes a multi‑region retail dataset to evaluate sales performance, identify top‑selling products, and uncover trends across customer segments, product categories, and time periods. The analysis was completed entirely in Excel, using pivot tables, charts, formulas, and an interactive dashboard to support data‑driven insights.
 
 The goal of this project is to demonstrate practical data analysis skills using Excel — including data cleaning, trend analysis, dashboard design, and business insight generation.
 
-# 📁 Dataset Summary
+## 📁 Dataset Summary
 The raw dataset contains ~9,800 rows of retail sales data spanning 2015 to 2018, with the following fields:
 
 - Row ID - Unique row identifier
@@ -49,7 +58,7 @@ The raw dataset contains ~9,800 rows of retail sales data spanning 2015 to 2018,
 
 
 
-# 🎯 Objectives
+## 🎯 Objectives
 This project focuses on answering key business questions:
 
 - Which regions generate the highest sales and profit
@@ -68,7 +77,7 @@ This project focuses on answering key business questions:
 
 
 
-# 🧠 Interactive Dashboard Features
+## 🧠 Interactive Dashboard Features
 The Excel dashboard is fully interactive and allows users to explore sales performance dynamically.
 
 🎛️ Filters
@@ -78,7 +87,7 @@ Year slicers (2015–2018)
 
 Region, Category, Sub‑Category, Segment filters
 
-# 📊 Quick Summary Panel
+### 📊 Quick Summary Panel
 Number of Transactions
 
 Total Sales
@@ -87,17 +96,17 @@ Average Sale Value
 
 Region of selected state
 
-# 🥧 Total Sales by Region
+### 🥧 Total Sales by Region
 Interactive pie chart showing regional sales distribution
 
 Example: East (33%), West (29%), South (19%), Central (19%)
 
-# 🧑‍💼 Sales by Segment and Region
+### 🧑‍💼 Sales by Segment and Region
 Bar chart comparing Consumer, Corporate, and Home Office sales
 
 Highlights segment‑specific performance in each region
 
-# 🛍️ Top 5 Products by Region
+### 🛍️ Top 5 Products by Region
 Bar chart showing top‑selling products
 
 Example:
@@ -106,7 +115,7 @@ Canon ImageCLASS 2200 Copier (~$30,000 in East)
 
 HON 4‑Drawer Vertical File (~$20,000)
 
-# 📈 Monthly Sales Trends
+### 📈 Monthly Sales Trends
 Line chart visualizing monthly sales across regions
 
 Shows seasonal patterns and regional fluctuations
@@ -114,8 +123,8 @@ Shows seasonal patterns and regional fluctuations
 
 
 
-# 🔍 Process
-- 1. Data Cleaning
+## 🔍 Process
+1. Data Cleaning
 Removed duplicates
 
 Standardized date formats
@@ -128,14 +137,14 @@ Validated category and sub‑category labels
 
 Created structured tables for pivot analysis
 
-- 2. Exploratory Analysis
+2. Exploratory Analysis
 Built pivot tables for region, category, and segment
 
 Created time‑series charts for monthly and yearly trends
 
 Ranked products by revenue and quantity
 
-- 3. Dashboard Creation
+3. Dashboard Creation
 Designed an interactive dashboard with slicers
 
 Added KPIs (Total Sales, Total Profit, Avg Order Value)
@@ -145,7 +154,7 @@ Used conditional formatting to highlight performance
 Built charts for regional, product, and trend analysis
 
 
-# 🚀 How to Use
+## 🚀 How to Use
 To interact with the Excel dashboard:
 
 - Go to the analysis_visualizations/ folder in this repository
@@ -173,7 +182,7 @@ View KPIs, top products, and monthly trends dynamically
 ⚠️ Note: The interactive dashboard is embedded inside analysis_visualizations.xlsx. Other files in the repo support the analysis but do not contain slicers or dynamic charts.
 
 
-# 📌 Future Improvements
+## 📌 Future Improvements
 - Add forecasting using Excel’s built‑in forecasting tools
 
 - Incorporate customer lifetime value (CLV) analysis
