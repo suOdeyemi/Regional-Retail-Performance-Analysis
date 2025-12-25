@@ -146,13 +146,31 @@ Built charts for regional, product, and trend analysis
 
 
 # 🚀 How to Use
-- Download the Excel dashboard file
+To interact with the Excel dashboard:
 
-- Open in Excel (desktop recommended)
+- Go to the analysis_visualizations/ folder in this repository
 
-- Use slicers to filter by region, category, segment, or time period
+- Download the file analysis_visualizations.xlsx
 
-- Explore pivot tables for deeper analysis
+- Open it in Excel (desktop recommended)
+
+- Use slicers to filter by:
+
+    - State
+
+    - Year (2015–2018)
+
+    - Region
+
+    - Category
+
+    - Sub‑Category
+
+    - Customer Segment
+
+View KPIs, top products, and monthly trends dynamically
+
+⚠️ Note: The interactive dashboard is embedded inside analysis_visualizations.xlsx. Other files in the repo support the analysis but do not contain slicers or dynamic charts.
 
 
 # 📌 Future Improvements
