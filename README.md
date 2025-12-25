@@ -1,3 +1,8 @@
+## 📂 Repository Overview 
+
+This repository contains all files related to the Excel-based retail sales analysis project: - `raw_data/`: Original dataset used for analysis - `cleaned_data/`: Preprocessed version of the dataset - `analysis_visualizations/`: Pivot tables, charts, and summary tables - `sales_dashboard.xlsx`: Interactive dashboard with filters and KPIs - `README.md`: Full project documentation
+
+
 # 📌 Overview:
 This project analyzes a multi‑region retail dataset to evaluate sales performance, identify top‑selling products, and uncover trends across customer segments, product categories, and time periods. The analysis was completed entirely in Excel, using pivot tables, charts, formulas, and an interactive dashboard to support data‑driven insights.
 
